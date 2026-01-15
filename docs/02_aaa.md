@@ -7,7 +7,7 @@ triples.
 
 ## brute-force solution
 
-consider this solution; it works by enumerating all the distinct triples
+consider the solution below; it works by enumerating all the distinct triples
 and checking their sums. if it equal to zero, we increase the answer
 counter by 1.
 
