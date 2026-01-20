@@ -55,3 +55,5 @@ $$
 if $x = 0$, then it is the best case runtime.
 
 if $x = C(n, 3)$, then it is the worst case runtime.
+
+<iframe src="https://www.desmos.com/calculator/pn0opipwcf?embed" class="border" style="width: 100%; height: 75dvh;" frameborder=0></iframe>

@@ -6,6 +6,10 @@
     <meta name="description" content="notes for cs1501">
     <title>cs1501 notes | drnfns</title>
     <link rel="stylesheet" href="https://unpkg.com/missing.css@1.2.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap" rel="stylesheet">
+    <style>:root{--main-font: "Recursive", sans-serif; --display-font: "Recursive", system-ui, sans-serif; --mono-font: monospace, monospace;}</style>
     <link
       rel="stylesheet"
       href="https://unpkg.com/missing.css@1.2.0/dist/missing-prism.min.css"
@@ -54,6 +58,8 @@
           delimiters: [
             { left: "$$", right: "$$", display: true },
             { left: "$", right: "$", display: false },
+            { left: "\\(", right: "\\)", display: false },
+            { left: "\\[", right: "\\]", display: true },
           ],
         });
       });
